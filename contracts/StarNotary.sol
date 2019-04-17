@@ -55,8 +55,8 @@ contract StarNotary is ERC721 {
     }
 
     // Implement Task 1 lookUptokenIdToStarInfo
-    function lookUptokenIdToStarInfo (uint _tokenId) public view returns (string memory) {// solium-disable-line no-empty-blocks
-        //1. You should return the Star saved in tokenIdToStarInfo mapping
+    function lookUptokenIdToStarInfo (uint _tokenId) public view returns (string memory) {
+        return tokenIdToStarInfo[_tokenId].name;
     }
 
     // Implement Task 1 Exchange Stars function
