@@ -97,6 +97,11 @@ it('can add the star name and star symbol properly', async () => {
     // 1. create a Star with different tokenId
     // 2. Call the name and symbol properties in your Smart Contract
     // and compare with the name and symbol provided
+    const instance = await StarNotary.deployed();
+    const tokenName = await instance.name.call();
+    const tokenSymbol = await instance.symbol.call();
+    assert.equal(tokenName, 'Udacity Blackchain Star');
+    assert.equal(tokenSymbol, 'UBS');
 });
 
 it('lets 2 users exchange stars', async () => {
