@@ -1,0 +1,8 @@
+{
+    "globals": {
+        "artifacts": false
+    },
+    "rules": {
+        "func-names": "off"
+    }
+}
