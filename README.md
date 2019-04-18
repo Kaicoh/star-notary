@@ -17,4 +17,6 @@ UBS
 
 ## Token address
 
+rinkeby network
+
 0xc0B1d2f403B9Ed5A25A8012B8cdDaf7a56672632
