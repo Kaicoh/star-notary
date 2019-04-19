@@ -11,6 +11,7 @@
     "eslint": "eslint migrations/**/*.js test/**/*.js app/webpack.config.js app/src/**/*.js",
     "solium": "solium -d contracts",
     "lint": "npm run eslint && npm run solium",
+    "dev": "dotenv -- truffle develop",
     "migrate:rinkeby": "dotenv -- truffle migrate --reset --network rinkeby"
   },
   "dependencies": {

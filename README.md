@@ -20,3 +20,23 @@ UBS
 rinkeby network
 
 0xc0B1d2f403B9Ed5A25A8012B8cdDaf7a56672632
+
+## In order to open truffle console
+
+run this command
+
+```
+$ npm run dev
+```
+
+## Test
+
+open truffle console and run test command
+
+```
+$ npm run dev
+```
+
+```
+truffle(develop)> test
+```
