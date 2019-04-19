@@ -21,9 +21,17 @@ rinkeby network
 
 0xc0B1d2f403B9Ed5A25A8012B8cdDaf7a56672632
 
+## Settings
+
+Create .env file in the project root directory and set environment variables like this.
+```
+METAMASK_MNEMONIC=<Your MetaMask mnemonic>
+INFURA_KEY=<Your infura project ID>
+```
+
 ## In order to open truffle console
 
-run this command
+After setting environment variables, run this command
 
 ```
 $ npm run dev
@@ -31,7 +39,7 @@ $ npm run dev
 
 ## Test
 
-open truffle console and run test command
+Open truffle console and run test command
 
 ```
 $ npm run dev
